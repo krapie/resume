@@ -18,9 +18,11 @@
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, a4paper]{awesome-cv}
+% Use Korean fonts
+\usepackage{kotex}
 
 % Configure page margins with geometry
-\geometry{left=2.5cm, top=.8cm, right=2.5cm, bottom=1.8cm, footskip=.5cm}
+\geometry{left=1cm, top=.8cm, right=1cm, bottom=1.8cm, footskip=.5cm}
 
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
@@ -50,11 +52,11 @@
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
 \photo[circle,edge,right]{./examples/profile}
-\name{Kevin}{Park}
-\position{DevOps Engineer{\enskip\cdotp\enskip}Backend Engineer}
-\address{405, 34-13, Gwangnaru-ro 2-gil, Seongdong-gu, Seoul, Republic of Korea}
+\name{박지환}{}
+\position{데브옵스 엔지니어{\enskip\cdotp\enskip}백엔드 엔지니어}
+\address{대한민국, 서울특별시 성동구 광나루로2길 34-13, 405}
 
-\mobile{(+82) 010-2783-5972}
+\mobile{(+82) 10-2783-5972}
 \email{krapi0314@gmail.com}
 %\dateofbirth{January 1st, 1970}
 %\homepage{www.posquit0.com}
@@ -72,7 +74,7 @@
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra information}
 
-% \quote{``Be the change that you want to see in the world."}
+% \quote{백엔드, 인프라, 오픈소스, 클라우드에 관심이 많은 개발자입니다.}
 
 
 %-------------------------------------------------------------------------------
@@ -86,7 +88,7 @@
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Kevin Park~~~·~~~Résumé}
+  {박지환~~~·~~~이력서}
   {\thepage}
 
 
@@ -94,7 +96,7 @@
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-\input{resume/summary.tex}
+% \input{resume/summary.tex}
 \input{resume/skills.tex}
 \input{resume/experience.tex}
 \input{resume/extracurricular.tex}

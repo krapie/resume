@@ -90,6 +90,8 @@
 }
 % Solves issues Warning: File `cv.out' has changed
 \RequirePackage{bookmark}
+% Needed to deal with multi-language
+\RequirePackage{kotex}
 
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
